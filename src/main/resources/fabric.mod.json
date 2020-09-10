@@ -1,25 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "redcomb",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "RedComb Core",
+  "description": "Hmph",
   "authors": [
-    "Me!"
+    "Azazelthedemonlord"
   ],
+  "custom": {
+    "freshcoffee:minimum_java_version": 13
+  },
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": ""
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "Public Domain",
+  "icon": "assets/redcomb/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.redcomb.RedComb"
     ]
   },
   "mixins": [
@@ -32,6 +35,5 @@
     "minecraft": "1.16.x"
   },
   "suggests": {
-    "flamingo": "*"
   }
 }
