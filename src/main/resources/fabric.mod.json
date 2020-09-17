@@ -3,7 +3,7 @@
   "id": "redcomb",
   "version": "${version}",
 
-  "name": "RedComb Core",
+  "name": "RedComb Lang",
   "description": "Hmph",
   "authors": [
     "Azazelthedemonlord"
@@ -22,7 +22,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.redcomb.RedComb"
+      "net.azzy.redcomb.RedComb"
     ]
   },
   "mixins": [
